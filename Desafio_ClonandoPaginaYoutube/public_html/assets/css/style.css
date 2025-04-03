@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #F9F9F9;
+}
+
+header {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+#headerLeft {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerCenter {
+    width: 404px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 2em;
+}
+#search {
+    width: 348.33px;
+    height: 100%;
+    border-radius: 2em 0em 0em 2em;
+    border: 0;
+}
+#pesquisa {
+    margin-right: 0;
+    height: 40px;
+    width: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #CCCCCC;
+    border-radius: 0em 2em 2em 0em;
+    position: absolute;
+    right: 0;
+    background-color: #CCCCCC;
+}
+#headerRight {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#watchingVideo {
+    width: 791px;
+    height: 746px;
+    margin-top: 56px;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#video {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 1.5em;
+}
+#watchingVideo h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+#videoActions {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#channelInfos {
+    width: auto;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+#channelInfos span {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+#videoActions button {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    width: 159px;
+    height: 40px;
+}
+#like, #dislike, #share, #download {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#watchingVideo p {
+    color: #515151;
+    width: 250px;
+    font-size: 14px;
+    word-wrap: normal;
+    line-height: 100%;
+    margin: 0;
+}
+
+#sidebar {
+    width: auto;
+    height: auto;
+    padding: 24px 24px 0 0;
+    float: right;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: auto auto;
+}
+#sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
+#sidebar .esquerda {
+    background-color: green;
+    width: 160px;
+    height: 90px;
+    border-radius: 0.5em;
+}
+.esquerda img {
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 160px;
+    height: 90px;
+}
+#sidebar .direita { 
+    width: 196px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.direita b {
+    width: auto;
+    font-size: 13px;
+    text-decoration: none;
+}
+.infoCanal {
+    font-size: 12px;
+    color: #515151;
+}
+.infoViews {
+    font-size: 12px;
+    color: #515151;
+    text-decoration: none;
+}
